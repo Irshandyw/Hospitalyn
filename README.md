@@ -1,61 +1,22 @@
-<p align="center"><a href="https://laravel.com" target="_blank"><img src="https://raw.githubusercontent.com/laravel/art/master/logo-lockup/5%20SVG/2%20CMYK/1%20Full%20Color/laravel-logolockup-cmyk-red.svg" width="400"></a></p>
+## <p align="center"> Hospitalyn </p>
 
-<p align="center">
-<a href="https://travis-ci.org/laravel/framework"><img src="https://travis-ci.org/laravel/framework.svg" alt="Build Status"></a>
-<a href="https://packagist.org/packages/laravel/framework"><img src="https://poser.pugx.org/laravel/framework/d/total.svg" alt="Total Downloads"></a>
-<a href="https://packagist.org/packages/laravel/framework"><img src="https://poser.pugx.org/laravel/framework/v/stable.svg" alt="Latest Stable Version"></a>
-<a href="https://packagist.org/packages/laravel/framework"><img src="https://poser.pugx.org/laravel/framework/license.svg" alt="License"></a>
-</p>
+## Apa itu Hospitalyn?
 
-## About Laravel
+Hospitalyn adalah sebuat aplikasi telemedicine. Singkatnya aplikasi ini menampilkan dokter obat maupun artikel yang berkaitan dengan kesehatan. Pada web Hospitalyn memiliki fitur homepage, fasilitas dan layanan, Daftar dokter, dan terakhir artikel kedokteran. Hospitalyn menggunakan database dari mysql dan framework laravel.
 
-Laravel is a web application framework with expressive, elegant syntax. We believe development must be an enjoyable and creative experience to be truly fulfilling. Laravel takes the pain out of development by easing common tasks used in many web projects, such as:
+## Apa tujuan dari Hospitalyn? 
 
-- [Simple, fast routing engine](https://laravel.com/docs/routing).
-- [Powerful dependency injection container](https://laravel.com/docs/container).
-- Multiple back-ends for [session](https://laravel.com/docs/session) and [cache](https://laravel.com/docs/cache) storage.
-- Expressive, intuitive [database ORM](https://laravel.com/docs/eloquent).
-- Database agnostic [schema migrations](https://laravel.com/docs/migrations).
-- [Robust background job processing](https://laravel.com/docs/queues).
-- [Real-time event broadcasting](https://laravel.com/docs/broadcasting).
+Hospitalyn sendiri dibuat untuk memenuhi persaingan dibidang teknologi pada bidang kesehatan. Hal ini dikarenakan sudah banyak rumah sakit yang melek akan teknologi dan mengembangkannya dalam bentuk website-website resmi rumah sakit mereka. Maka dari itu Hospitalyn berkeinginan untuk bersaing, karena kami yakin memiliki tingkat kredibilitas yang tinggi dibidang kesehatan. 
 
-Laravel is accessible, powerful, and provides tools required for large, robust applications.
+## Bagaimana cara menggunakan website Hospitalyn?
 
-## Learning Laravel
-
-Laravel has the most extensive and thorough [documentation](https://laravel.com/docs) and video tutorial library of all modern web application frameworks, making it a breeze to get started with the framework.
-
-If you don't feel like reading, [Laracasts](https://laracasts.com) can help. Laracasts contains over 1500 video tutorials on a range of topics including Laravel, modern PHP, unit testing, and JavaScript. Boost your skills by digging into our comprehensive video library.
-
-## Laravel Sponsors
-
-We would like to extend our thanks to the following sponsors for funding Laravel development. If you are interested in becoming a sponsor, please visit the Laravel [Patreon page](https://patreon.com/taylorotwell).
-
-### Premium Partners
-
-- **[Vehikl](https://vehikl.com/)**
-- **[Tighten Co.](https://tighten.co)**
-- **[Kirschbaum Development Group](https://kirschbaumdevelopment.com)**
-- **[64 Robots](https://64robots.com)**
-- **[Cubet Techno Labs](https://cubettech.com)**
-- **[Cyber-Duck](https://cyber-duck.co.uk)**
-- **[Many](https://www.many.co.uk)**
-- **[Webdock, Fast VPS Hosting](https://www.webdock.io/en)**
-- **[DevSquad](https://devsquad.com)**
-- **[OP.GG](https://op.gg)**
-
-## Contributing
-
-Thank you for considering contributing to the Laravel framework! The contribution guide can be found in the [Laravel documentation](https://laravel.com/docs/contributions).
-
-## Code of Conduct
-
-In order to ensure that the Laravel community is welcoming to all, please review and abide by the [Code of Conduct](https://laravel.com/docs/contributions#code-of-conduct).
-
-## Security Vulnerabilities
-
-If you discover a security vulnerability within Laravel, please send an e-mail to Taylor Otwell via [taylor@laravel.com](mailto:taylor@laravel.com). All security vulnerabilities will be promptly addressed.
-
-## License
-
-The Laravel framework is open-sourced software licensed under the [MIT license](https://opensource.org/licenses/MIT).
+Cara menggunakan file project website Hospitalyn adalah :
+1. Tentunya kalian harus memiliki file zip dari project ini, jika belum kalian bisa Clone atau Download file Hospitalyn ini.
+2. Setelah memiliki filenya kalian dapat men-extract file tersebut.
+3. Kemudian buka folder "Project", klik kanan pada bagian yang kosong dan klik "Open in Terminal". Lalu klik "code ." untuk menjalankan vscode dan sekaligus menjalankan folder project tersebut. 
+4. Pastikan anda memiliki Xampp ( jangan lupa untuk dinyalakan pada bagian Admin di Apache dan Mysql ), PHP environment, dan Laravel. 
+5. Buat database baru di myPHPAdmin dengan nama yang sesuai di env. , yaitu "hospitalyn" atau jika ingin anda rubah sesuaikan juga dengan yang ada di env. 
+6. Kemudian lakukan "php artisan migrate:fresh -seed" untuk proses seeding. 
+7. Setelah itu jalankan local hosting dengan cara "php artisan serve" , kemudian akan muncul link untuk local hosting. Kita bisa langsung melakukan klik pada CTRL dan klik pada link tersebut dan tampilan website akan terbuka atau juga bisa menyalin link tersebut terlebih dahulu baru jalankan di browser yang direkomendasikan, seperti Chrome. 
+8. Website sudah dijalankan, jangan lupa untuk melakukan register akun terlebih dahulu dan kemudian login untuk masuk untuk ke dalam akun yang telah dibuat. Setelah login, jalankan sesuai dengan kebutuhan anda.
+9. Website siap untuk digunakan. 
